@@ -13,7 +13,7 @@ c=`nproc`
 if[ ${c} -eq 1 ]
 then 
 	echo "This server is very small"
-         exit 2
+         exit 0
 fi	
 
 # checking memory
